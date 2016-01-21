@@ -16,6 +16,70 @@
         android:layout_weight="1"
         android:background="#92000000">
 
+        <ToggleButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="powerButton"
+            android:id="@+id/toggleButton"
+            android:layout_weight="1"
+            android:textSize="60dp"
+            android:textColor="#ffdcff5e" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="Up Tune"
+                android:id="@+id/upTune"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="Down Tune"
+                android:id="@+id/downTune"
+                android:layout_weight="1" />
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textAppearance="@android:color/secondary_text_light"
+            android:text="101.5"
+            android:paddingTop="30dp"
+
+            android:id="@+id/stationDisplay"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textColor="#ffdcff5e"
+            android:textSize="60sp"
+            android:visibility="visible" />
+
+        <Switch
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="AM/FM"
+            android:id="@+id/am_fm"
+            android:layout_weight="1"
+            android:textSize="35sp"
+            android:textColor="#ffdcff5e" />
+
+        <SeekBar
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/volumeBar"
+            android:layout_weight="2"
+            android:progressTint="#ffdcff5e" />
+
     </LinearLayout>
 
     <LinearLayout
@@ -26,7 +90,50 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_weight="1"
-        android:background="#92000000"></LinearLayout>
+        android:background="#92000000">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="1"
+            android:id="@+id/presetButton1"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="2"
+            android:id="@+id/presetButton2"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="3"
+            android:id="@+id/presetButton3"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="4"
+            android:id="@+id/presetButton4"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="5"
+            android:id="@+id/presetButton5"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="6"
+            android:id="@+id/presetButton6"
+            android:layout_weight="1" />
+    </LinearLayout>
 
     <LinearLayout
         android:orientation="horizontal"
