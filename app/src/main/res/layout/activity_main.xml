@@ -37,14 +37,18 @@
                 android:text="Up Tune"
                 android:id="@+id/upTune"
                 android:layout_gravity="center_horizontal"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:textColor="#ffdcff5e"
+                android:textSize="20sp"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:text="Down Tune"
                 android:id="@+id/downTune"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:textColor="#ffdcff5e"
+                android:textSize="20sp"/>
 
 
 
@@ -97,42 +101,55 @@
             android:layout_height="match_parent"
             android:text="1"
             android:id="@+id/presetButton1"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:textColor="#ffdcff5e"
+            android:textSize="60sp"/>
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:text="2"
             android:id="@+id/presetButton2"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:textColor="#ffdcff5e"
+            android:textSize="60sp"/>
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:text="3"
             android:id="@+id/presetButton3"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:textColor="#ffdcff5e"
+            android:textSize="60sp"/>
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:text="4"
             android:id="@+id/presetButton4"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:textColor="#ffdcff5e"
+            android:textSize="60sp"/>
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:text="5"
             android:id="@+id/presetButton5"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:textColor="#ffdcff5e"
+            android:textSize="60sp"/>
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:text="6"
             android:id="@+id/presetButton6"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:textColor="#ffdcff5e"
+            android:textSize="60sp"/>
+        
     </LinearLayout>
 
     <LinearLayout
